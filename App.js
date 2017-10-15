@@ -10,16 +10,19 @@ const DrawerContainer = styled.View`
   background-color: ${COLORS.GREY.BRIGHT_GREY};
 `;
 
+
 const AppContainer = styled.View`
   flex: 1;
   background-color: ${COLORS.GREY.BLACK_RUSSIAN};
 `;
+
 
 const drawerRouteConfig = {
   Home: {
     screen: HomeStackNavigator,
   },
 };
+
 
 const CustomDrawerContentComponent = props => (
   <DrawerContainer>
