@@ -41,7 +41,7 @@ export default class App extends React.Component {
   render() {
     return (
       <AppContainer>
-        <StatusBar hidden={true}  />
+        <StatusBar  hidden={true}  />
         <AppDrawer  />
       </AppContainer>
     );

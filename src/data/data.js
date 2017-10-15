@@ -102,6 +102,7 @@ const SHOWS = [
     starring: 'Winona Ryder, David Harbour, Mathew Modine',
     creator: 'The Duffer Brothers',
     image: ORANGE_IS_THE_NEW_BLACK,
+    
   },
   {
     title: 'Stranger Things',
