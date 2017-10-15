@@ -6,6 +6,7 @@ export const COLORS = {
   RED: {
     FIRE_ENGINE_RED: '#D81120',
   },
+  
   WHITE: {
     WHITE: '#FFFFFF',
   },

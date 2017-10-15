@@ -9,7 +9,7 @@ const HomeStackNavigator = StackNavigator(
     ShowDetails: { screen: ShowDetailsScreen },
   },
   {
-    initialRouteName: 'Main',
+    initialRouteName:  'Main',
     headerMode: 'none',
   },
 );

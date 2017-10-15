@@ -21,6 +21,7 @@ const UserNavigationContainer = styled.View`
   background-color: ${COLORS.GREY.BLACK_RUSSIAN};
 `;
 
+
 const UserNavigationLink = styled.View`
   margin-right: 10;
   margin-left: 10;
@@ -32,6 +33,7 @@ const UserNavigationLink = styled.View`
   background-color: ${COLORS.GREY.BLACK_RUSSIAN};
   border-bottom-width: 5;
 `;
+
 
 const ActiveUserNavigationLink = styled(UserNavigationLink)`
   border-bottom-color: ${COLORS.RED.FIRE_ENGINE_RED};
@@ -79,6 +81,7 @@ const AllContainer = styled.View`
   display: flex;
   flex-direction: row;
 `;
+
 
 const AllText = styled.Text`
   color: ${COLORS.GREY.BRIGHT_GREY};

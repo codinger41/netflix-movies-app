@@ -11,3 +11,4 @@ $ yarn add global create-react-native-app
 $ yarn start ; to run it on your mobile device with expo
 
 $ yarn run andtoid;  to run it in your emulator
+ 
