@@ -42,7 +42,7 @@ export default class App extends React.Component {
     return (
       <AppContainer>
         <StatusBar  hidden={true}  />
-        <AppDrawer  />
+        <AppDrawer />
       </AppContainer>
     );
   }
