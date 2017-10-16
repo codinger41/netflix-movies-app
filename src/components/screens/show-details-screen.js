@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React,
+      { Component } from 'react';
 import { TouchableOpacity } from 'react-native';
 import styled from 'styled-components/native';
 import { COLORS } from '../../constants/styles';
