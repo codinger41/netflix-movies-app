@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { StatusBar } from 'react-native';
 import { DrawerNavigator, DrawerItems } from 'react-navigation';
 import HomeStackNavigator from './src/components/navigation/home-stack-navigator';
@@ -36,7 +36,7 @@ const drawerNavigatorConfig = {
 
 const AppDrawer = DrawerNavigator(drawerRouteConfig, drawerNavigatorConfig);
 
-export default class App extends React.Component {
+export default class App extends Component {
   render() {
     return (
       <AppContainer>
